@@ -544,3 +544,7 @@ footer {
   margin-left: 16px;
   fill: #fff;
 }
+
+.footer-form-button{
+  min-width: 165px;
+}
