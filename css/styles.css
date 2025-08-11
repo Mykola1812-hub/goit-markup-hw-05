@@ -488,3 +488,13 @@ footer {
 .footer-socials-icons {
   fill: #f4f4fd;
 }
+
+.container-form{
+  margin-left: auto;
+  max-width: 453px;
+  height: 80px;
+}
+
+.form-comment{
+  display: flex;
+}
