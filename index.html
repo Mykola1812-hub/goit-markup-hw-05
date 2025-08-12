@@ -65,7 +65,7 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-heading">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -492,9 +492,9 @@
       </div>
     </footer>
 
-    <div class="backdrop">
-      <div class="model">
-          <button type="button" class="model-close-button">
+    <div class="backdrop is-open" data-modal>
+      <div class="modal">
+          <button type="button" class="model-close-button" data-modal-close>
             <svg class="close-button" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
@@ -543,9 +543,9 @@
                 </div>
 
                 <div class="checkbox-container">
-                    <input class="input-checkbox-container" type="checkbox" name="user-privacy" id="user-privacy" value="true" visually-hidden>
+                    <input class="input-checkbox-container visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
                     <label class="label-checkbox-container" for="user-privacy" ><span class="span-label-checkbox"><svg class="svg-span-label" width="10" height="8">
-                      <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+                      <use href="./images/icons.svg#icon-Vector"></use>
                     </svg></span> I accept the terms and conditions of the <a class="link-label-checkbox" href="">Privacy Policy</a></label>
                 </div>
 
@@ -553,5 +553,7 @@
           </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
