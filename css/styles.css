@@ -505,6 +505,11 @@ footer {
 .footer-form-input{
   width: 264px;
   height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
   border: 1px solid #ffffff;
   background-color: transparent;
   padding-left: 16px;
