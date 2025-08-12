@@ -619,7 +619,6 @@ footer {
 
 .model-container{
   margin-bottom: 8px;
-
 }
 
 .model-first-label{
@@ -634,6 +633,7 @@ footer {
 
 .model-first-contener-input{
   position: relative;
+  line-height: 1.17;
 }
 
 .input-user-name{
@@ -660,7 +660,11 @@ footer {
 }
 
 
-.input-user-name:focus .svg-input-user-name {
+.input-user-name:focus .svg-input-user-name{
+  fill: #4D5AE5;
+}
+
+.model-first-contener-input:focus-within .svg-input-user-name {
   fill: #4D5AE5;
 }
 
