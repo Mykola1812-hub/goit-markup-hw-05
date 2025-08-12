@@ -572,6 +572,7 @@ footer {
   background: #fcfcfc;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .model-close-button{
@@ -599,7 +600,68 @@ footer {
 
 .close-button{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.model-close-button:hover .close-button,
+.model-close-button:focus .close-button { 
+  fill: #ffffff
+}
+
+.model-paragraph{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.model-container{
+  margin-bottom: 8px;
+
+}
+
+.model-first-label{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.model-first-contener-input{
+  position: relative;
+}
+
+.input-user-name{
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 100%;
+  border-radius: 4px;
+  height: 40px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.input-user-name:focus{
+  border: 1px solid #4d5ae5;
+}
+
+.svg-input-user-name{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.input-user-name:focus .svg-input-user-name {
+  fill: #4D5AE5;
 }
 
 
